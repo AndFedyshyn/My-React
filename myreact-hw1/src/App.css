@@ -1,0 +1,11 @@
+
+.allComponents {
+    display: flex;
+    justify-content: space-around;
+}
+.allCars{
+    background: aqua;
+}
+.allUsers{
+    background: darkgreen;
+}

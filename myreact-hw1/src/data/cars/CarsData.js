@@ -1,0 +1,15 @@
+export const cars = [
+    {model: 'BMW X6',country: 'Germany',year: 2018,status: false},
+    {model: 'Audi A6',country: 'Germany',year: 2015,status: true},
+    {model: 'BMW X3',country: 'Germany',year: 2011,status: false},
+    {model: 'Audi A4',country: 'Germany',year: 2010,status: true},
+    {model: 'BMW X5',country: 'Germany',year: 2013,status: true},
+    {model: 'Audi A8',country: 'Germany',year: 2019,status: false},
+    {model: 'Mercedes GL',country: 'Germany',year: 2020,status: true},
+    {model: 'BMW X5',country: 'Germany',year: 2017,status: false},
+    {model: 'BMW X5',country: 'Germany',year: 2018,status: true},
+    {model: 'Opel Astra',country: 'Germany',year: 2012,status: false},
+    {model: 'Opel Vectra',country: 'Germany',year: 2013,status: false},
+    {model: 'BMW X6',country: 'Germany',year: 2016,status: true},
+    {model: 'Opel Corsa',country: 'Germany',year: 2000,status: true},
+];
