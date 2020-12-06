@@ -1,0 +1,15 @@
+.post {
+    margin: 5px auto;
+    width: 80%;
+    padding: 30px 30px 60px;
+    background-color: cadetblue;
+    border-radius: 20px;
+    border: solid chocolate 4px;
+}
+.btn{
+    border: 1px solid orangered;
+    border-radius: 5px;
+    float: right;
+    padding: 4px;
+    box-shadow: 0 4px 5px 0 red ;
+}
