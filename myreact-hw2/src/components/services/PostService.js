@@ -1,9 +1,11 @@
-export class PostService{
+export class PostService {
     url = 'https://jsonplaceholder.typicode.com/posts';
 
-    getAllPosts (){
-       return  fetch(this.url)
+    getAllPosts() {
+        return fetch(this.url)
             .then(value => value.json())
-            .then(value => {return value;})
-            };
-    }
+            .then(value => {
+                return value;
+            })
+    };
+}

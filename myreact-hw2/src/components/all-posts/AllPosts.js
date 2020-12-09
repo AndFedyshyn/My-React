@@ -4,19 +4,16 @@ import {PostService} from "../services/PostService";
 
 class AllPosts extends Component {
 
-    postService= new PostService();
-
-
+    postService = new PostService();
 
     state = {allPosts: []};
-
 
     componentDidMount() {
         this.postService.getAllPosts().then(value => this.setState({allPosts: value}))
     }
 
     render() {
-        const {allPosts} =this.state;
+        const {allPosts} = this.state;
 
         return (
             <div>
