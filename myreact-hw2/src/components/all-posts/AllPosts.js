@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
 import Post from "../one-post/Post";
+import {PostService} from "../services/PostService";
 
 class AllPosts extends Component {
 
+    postService= new PostService();
 
 
 
@@ -10,11 +12,7 @@ class AllPosts extends Component {
 
 
     componentDidMount() {
-        fetch('https://jsonplaceholder.typicode.com/posts')
-            .then(value => value.json())
-            .then(value => {
-                this.setState({allPosts: value})
-            })
+        this.postService.getAllPosts().then(value => this.setState({allPosts: value}))
     }
 
     render() {
