@@ -18,7 +18,8 @@ class FullPost extends Component {
         return (
             <div>
                 {post && <div>
-                    {post.id}-{post.title}{post.body}
+                    <p>{post.id}-{post.title}</p>
+                    <p>{post.body}</p>
                 </div>
                 }
             </div>

@@ -8,7 +8,8 @@ class Post extends Component {
         let {item,match:{url}} = this.props;
         return (
             <div className={'post'}>
-                {item.id}-{item.title}-{item.body}<Link to={`${url}/${item.id}`}>
+                {item.id}-{item.title}-{item.body}
+                <Link to={`${url}/${item.id}`}>
                 <button>info</button>
             </Link>
             </div>

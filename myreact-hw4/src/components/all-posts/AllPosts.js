@@ -21,7 +21,7 @@ class AllPosts extends Component {
         return (
             <div>
                 {posts.map(value => <Post item={value} key={value.id}/>)}
-
+                <hr/>
                 <Switch>
                     <Route path={url + '/:id'} render={(props) => {
                         const {match: {params: {id}}} = props
